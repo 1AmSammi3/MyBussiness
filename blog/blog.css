@@ -72,19 +72,20 @@ a{
    z-index: 3;
    top: 0;
    width: 100vw;
-   background: whitesmoke;
+   background: transparent;
+   backdrop-filter: blur(5px);
    display: flex;
    justify-content: space-between;
    align-items: center;
-   color: #5000a7;
+   color: #130113;
    z-index: 2;
    padding: 10px 20px 10px 20px;
-   box-shadow: inset 0 -1px #5000a7;
    filter: opacity(90%);
 }
 .navbar p{
    font-weight: bold;
-   color: #270051;
+   color: #130113;
+   text-shadow: 0 1px 2px #ffffff88;
 }
 .hamburger{
    display: flex;
@@ -200,6 +201,9 @@ hr{
    .alter{
       display: flex;
       gap: 20px;
+   }
+   .alter a{
+      color: #130113;
    }
    .flex-box{
       width: 50vw;
