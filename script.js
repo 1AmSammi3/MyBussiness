@@ -1,7 +1,3 @@
-/*alert(`🎉🎊In celebration of our newly launched website🎉🎊
-We are giving out 50% discount rate for the next 24 hours on all our services.
-Don't miss out! 😉`);*/
-
 let menu = document.querySelector(".menu");
 let but = document.querySelector(".back");
 let links = document.querySelectorAll(".link");
